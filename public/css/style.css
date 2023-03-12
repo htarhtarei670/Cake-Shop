@@ -1,0 +1,292 @@
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                background-color: black;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: 'Poiret One', cursive;
+            }
+
+            p,
+            a,
+            img,
+            button {
+                font-family: 'Jost', sans-serif;
+            }
+            /* start home */
+
+            .home {
+                background-image: url(../image/covercake.jpg);
+                background-size: cover;
+                background-attachment: local;
+                background-repeat: no-repeat;
+            }
+
+            .fs-7 {
+                font-size: 75px;
+            }
+
+            .btn-online {
+                background-color: #e5b013;
+                padding: 18px 32px;
+                border: none;
+                color: black;
+                border-radius: 0%;
+            }
+
+            .btn-online:hover {
+                padding: 18px 32px;
+                background-color: none;
+                border: 1px solid #e5b013;
+                color: #e5b013;
+            }
+
+            .bg-grey {
+                background-color: #9E9E9E;
+            }
+
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,165,0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+            }
+
+            .navbar-toggler {
+                border: 2px solid #ffc107fb;
+            }
+            /* end start home*/
+            /* start Schiler  */
+
+            .pt-6 {
+                padding-top: 120px;
+            }
+
+            .px-6 {
+                padding: 0px 100px;
+            }
+
+            .mt-6 {
+                margin-top: 80px;
+            }
+            /* end Schiler */
+            /* start cake design */
+
+            .cake {
+                width: 400px;
+                height: 350px;
+            }
+
+            .cake:hover {
+                transform: scale(1.03);
+                transition: 0.5s;
+                cursor: grab;
+            }
+            /* end cake design */
+            /* start review */
+
+            .customer-logo {
+                width: 50px;
+                height: 50px;
+                border-radius: 30px;
+            }
+
+            .border {
+                border: 1px solid#9E9E9E;
+            }
+            /* end review */
+            /* start blog */
+
+            .link {
+                display: inline-block;
+                position: relative;
+                color: white;
+            }
+
+            .link:after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 1px;
+                bottom: 0;
+                left: 0;
+                top: 4;
+                background-color: #e5b013;
+                transform-origin: bottom left;
+                transition: transform 0.25s ease-out;
+            }
+
+            .link:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }
+
+            .txt {
+                color: white;
+            }
+
+            .txt:hover {
+                color: #e5b013;
+                transition-delay: 0.2s;
+            }
+
+            .blogImg {
+                width: 100%;
+                height: 320px;
+            }
+
+            .blogDate {
+                position: absolute;
+                top: 53%;
+                left: 13%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                background-color: #e5b013;
+                color: white;
+                padding: 8px 35px;
+                border: none;
+                border-radius: 8px;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+
+            .blogDate:hover {
+                color: #e5b013;
+            }
+
+            .blogShadow {
+                box-shadow: 0px 0px 23px rgb(224, 222, 213);
+            }
+
+            .blog {
+                position: relative;
+            }
+
+            .blogPig {
+                background-color: white;
+                padding: 18px 32px;
+                border: none;
+                color: #e5b013;
+            }
+
+            .blogPig:hover {
+                padding: 18px 32px;
+                background-color: none;
+                border: 1px solid white;
+                color: #e5b013;
+            }
+
+            .feedImg {
+                width: 100px;
+                height: 100px;
+            }
+
+            .feedImgBig {
+                width: 100%;
+                height: 100%;
+            }
+            /* end blog */
+            /* start pancake page*/
+
+            .btn-constant {
+                border: 1px solid rgb(167, 164, 164);
+                padding: 13px 19px;
+                color: #fff;
+                border-radius: 0%;
+            }
+
+            .btn-constant:hover {
+                border: 1px solid #e5b013;
+                padding: 13px 19px;
+                color: #e5b013;
+                border-radius: 0%;
+            }
+
+            .pan {
+                filter: blur(2px);
+            }
+
+            .pan:hover {
+                transform: scale(1.03);
+                transition: 0.5s;
+                cursor: grab;
+                filter: blur(0px);
+            }
+
+            .pan-sm {
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            .txt-black {
+                color: black;
+            }
+
+            .txt-black:hover {
+                color: #e5b013;
+                transition-delay: 0.2s;
+            }
+            /* end pancake page */
+            /* start footer */
+
+            .fs-0 {
+                font-size: 30px;
+            }
+
+            .pbn {
+                margin-bottom: -1px;
+            }
+
+            .pb-6 {
+                padding-bottom: 70px;
+            }
+
+            .psn {
+                padding: -10px;
+            }
+
+            .ptn {
+                margin-top: -8px;
+            }
+
+            .msn {
+                margin-left: -20px;
+            }
+            /* end footer */
+            /* end footer */
+
+            .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 100%;
+            }
+
+            .gmap_canvas {
+                overflow: hidden;
+                background: none!important;
+                height: 100%;
+                width: 100%;
+            }
+
+            .input {
+                background-color: black;
+                border: 1px solid white;
+                padding: 10px 15px;
+                width: 100%;
+            }
+
+            .input:hover {
+                background-color: black;
+                padding: 10px 15px;
+                width: 100%;
+                border: 1px solid #e5b013;
+            }
